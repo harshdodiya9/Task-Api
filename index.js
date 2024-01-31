@@ -7,7 +7,7 @@ const mongoose = require('./config/mongoose');
 const admin = require('./Models/Admin/register');
 
 const mongoose = require('mongoose')
-mongoose.connect(("mongodb+srv://dodiyaharsh99:harsh123@cluster0.zqnwysw.mongodb.net/versionapi"), {
+mongoose.connect(("mongodb+srv://dodiyaharsh99:harsh123@cluster0.zqnwysw.mongodb.net/Task-Api"), {
      useUnifiedTopology: true,
      useNewUrlParser: true
  })
